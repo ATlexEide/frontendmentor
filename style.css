@@ -35,8 +35,9 @@ main {
   height: 100%;
 }
 #container {
-  display: inherit;
-  place-items: inherit;
+  background: none;
+  box-shadow: 0em 3em 50px -43px grey;
+  border-radius: var(--radius);
 }
 .card {
   display: flex;
