@@ -104,6 +104,9 @@ main {
 #amount {
   font-size: 2rem;
 }
+button:hover {
+  cursor: pointer;
+}
 
 /* DESKTOP */
 @media only screen and (min-width: 600px) {
