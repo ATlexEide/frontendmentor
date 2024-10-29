@@ -75,7 +75,7 @@ main {
   height: 4em;
   font-family: inherit;
   font-weight: 700;
-  box-shadow: 0.1em 0.5em 3em grey;
+  box-shadow: 0.5em 1em 3em 0em grey;
 }
 #why {
   background-color: var(--grayish-blue);
