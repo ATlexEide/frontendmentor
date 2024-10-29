@@ -22,16 +22,20 @@
 }
 
 body {
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
   width: 100vw;
   height: 100svh;
   font-family: "Karla", sans-serif;
   line-height: 1.5em;
 }
 main {
+  display: grid;
+  place-items: center;
   width: 80%;
-  height: 100%;
+  height: fit-content;
 }
 #container {
   margin-top: 2em;
@@ -115,11 +119,11 @@ footer {
   text-align: center;
 }
 /* DESKTOP */
+/* FIXME: Box chadoer alignment on mobile / Box shadow on desktop */
 @media only screen and (min-width: 600px) {
   #container {
-    height: 80%;
-    width: 80%;
     display: grid;
+    height: 80%;
     /* /* grid-template-columns: repeat(2, 1fr); */
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
