@@ -127,6 +127,7 @@ footer {
     display: grid;
     height: 80%;
     width: 60%;
+    box-shadow: 0em 7em 50px -28px grey;
     /* /* grid-template-columns: repeat(2, 1fr); */
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
