@@ -41,7 +41,6 @@ main {
 #container {
   margin-top: 2em;
   width: 100%;
-  height: 100%;
   background: none;
   box-shadow: 0em 3em 50px -43px grey;
   border-radius: var(--radius);
