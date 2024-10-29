@@ -32,6 +32,7 @@ body {
   line-height: 1.5em;
 }
 main {
+  margin-top: auto;
   display: grid;
   place-items: center;
   width: 80%;
@@ -115,15 +116,18 @@ button:hover {
 }
 footer {
   margin-top: auto;
+  height: 1em;
   width: 100%;
   text-align: center;
+  border: solid 1px red;
 }
 /* DESKTOP */
 /* FIXME: Box chadoer alignment on mobile / Box shadow on desktop */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 950px) {
   #container {
     display: grid;
     height: 80%;
+    width: 60%;
     /* /* grid-template-columns: repeat(2, 1fr); */
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
