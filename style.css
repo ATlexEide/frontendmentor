@@ -124,12 +124,11 @@ footer {
   text-align: center;
 }
 /* DESKTOP */
-/* FIXME: Box chadoer alignment on mobile / Box shadow on desktop */
 @media only screen and (min-width: 950px) {
   #container {
     display: grid;
     width: 60%;
-    box-shadow: 0em 7em 50px -28px grey;
+    box-shadow: 0em 2em 50px -28px grey;
     /* /* grid-template-columns: repeat(2, 1fr); */
     grid-template-columns: repeat(2, 1fr);
     grid-template-areas:
