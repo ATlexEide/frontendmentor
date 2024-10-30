@@ -1,11 +1,14 @@
 :root {
   /* Primary */
   --cyan: hsl(179, 62%, 43%);
+  --cyan-second: hsla(179, 62%, 43%, 0.803);
   --bright-yellow: hsl(71, 73%, 54%);
   /* Neutral */
   --light-gray: hsl(204, 43%, 93%);
   --grayish-blue: hsl(218, 22%, 67%);
   --radius: 7px;
+  /* HTML STYLES */
+  background-color: var(--light-gray);
 }
 * {
   margin: 0;
@@ -60,7 +63,8 @@ main {
   border-radius: 0 0 var(--radius) var(--radius);
 }
 #join {
-  background-color: var(--light-gray);
+  background-color: white;
+  color: var(--light-gray);
 }
 #join .title {
   color: var(--grayish-blue);
@@ -84,7 +88,7 @@ main {
   box-shadow: 0.5em 1em 3em 0em grey;
 }
 #why {
-  background-color: var(--grayish-blue);
+  background-color: var(--cyan-second);
 }
 .title,
 .catch,
@@ -124,7 +128,6 @@ footer {
 @media only screen and (min-width: 950px) {
   #container {
     display: grid;
-    height: 80%;
     width: 60%;
     box-shadow: 0em 7em 50px -28px grey;
     /* /* grid-template-columns: repeat(2, 1fr); */
